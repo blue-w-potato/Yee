@@ -1,8 +1,8 @@
-a = []
+a = {}
 while True:
     k = input('Key: ')
     if k == 'end':break
-    a.append(k)
-    input('Value: ')
-s = input('Search key: ')
-print(s in a)
+    a[k] = input('Value: ')
+    
+for i in sorted(a.keys()):
+    print(f'{i}: {a[i]}')
