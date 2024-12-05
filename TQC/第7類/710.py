@@ -1,4 +1,3 @@
-
 a = []
 while True:
     k = input('Key: ')
